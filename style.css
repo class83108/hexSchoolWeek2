@@ -199,7 +199,7 @@ body {
 }
 
 .project_section {
-  margin: 160px 312px;
+  padding: 160px 0;
 }
 
 .project_section .title_container {
@@ -237,7 +237,11 @@ body {
 }
 
 .project_container .right_side .top_group .decription .btn_container {
-  margin-right: 451px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.project_container .right_side .top_group .decription .btn_box {
   border-radius: 32px;
   padding: 12px 12px 12px 24px;
   text-decoration: none;
